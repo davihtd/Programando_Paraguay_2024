@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #3e363f;
+    padding-top: 70px;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* Color blanco con 30% de opacidad */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav a{
+    padding-right: 20px;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    transition: all .3s;
+    height: 1000px;
+    width: 200px;
+    box-shadow: #3e363f;
+  }
+  nav a:hover{
+    font-size: 20px;
+    color: blue;
+  }
+  .menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+  }
+  .menu-item:hover {
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+  }
+  header {
+    background-color: rgb(68, 68, 208);
+    display: flex;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  header img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 50px;
+  }
+  section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  #acerca-de-mi {
+    text-align: justify;
+    border: none;
+  }
+  #habilidades ul {
+    justify-content: center;
+    padding: 0;
+  }
+  #habilidades{
+    justify-content: center;
+    border-radius: 16px;
+    border: 2px solid blue;
+    width: 45%;
+    margin: 0 auto;
+  }
+  .list-habilidades{
+    margin: 0 auto;
+  }
+  
+  #habilidades ul li {
+    list-style: none;
+    display: inline-block;
+    
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all .3s;
+  }
+  #habilidades ul li:hover {
+    /* width: 150px;
+    height: 50px; */
+    font-size: 20px;
+    background-color: #ddd;
+    color: blue;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  #experiencia{
+    margin: 20px 0;
+    background-color: rgb(68, 68, 208);
+    color: #fff;
+    text-align:left;
+    justify-content: center;
+    margin-right: 50%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  #experiencia ul {
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 10px;
+  }
+
+  #proyectos{
+    margin: 20px 0;
+    background-color: rgb(68, 68, 208);
+    color: #fff;
+    text-align:left;
+    justify-content: center;
+    margin-left: 50%;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+  #proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #proyectos ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+  }
+  
+  #proyectos ul li a:hover {
+    font-size: 30px;
+    color: rgb(10, 194, 250);
+  }
+  #contacto{
+    background-color: rgb(68, 68, 208);
+color: white;
+  }
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: rgb(68, 68, 208);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
